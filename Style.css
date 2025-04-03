@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: url('./the.jpg');
+    background-position: 100% 15%;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+
+}
+
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left: -2%;
+}
+
+ul{
+    margin-top: -4%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px;
+}
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    margin-top: -3%;
+    transform: .4s ease;
+    padding: 10px 15px;
+    border-radius: 50px;
+    transition: background 0.5s;
+}
+ul li a:hover{
+    background: rgb(0, 0, 0);
+}
+.info{
+    position: absolute;
+    color: white;
+    width: 400px;
+    bottom: 280px;
+    left: 60px;
+}
+.blue{
+    color: blue;
+}
+.red{
+    color: red;
+}
